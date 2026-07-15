@@ -61,6 +61,9 @@ async def start_bot():
 
 async def stop_bot():
     await bot.stop()
+
+async def drm_handler(bot: Client, m: Message):
+    pwtoken = globals.pwtoken
   
 import random
 
